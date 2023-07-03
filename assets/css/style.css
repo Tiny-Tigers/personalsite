@@ -5,15 +5,24 @@
 
   h1 {
     font-family: 'Didot', serif;
-    font-size: 20;
+    font-size: 70pt;
+    background-color: rgb(144, 160, 81)
   }
   
   h3 {
+    display: flex;
     font-size: 1.5rem;
     margin-bottom: 10px;
+    justify-content: left;
   }
   
-  header {
+  .sitenav{
+    font-family: 'Didot', serif;
+    flex-direction: column;
+    justify-content: left;
+}
+
+  .title {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,12 +33,3 @@
     display: flex;
     background-color: #d8a47f;
   }
-  
-
-  @media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
-  }
-  
