@@ -8,14 +8,40 @@
 
 }
 
-  .title{
+  
 
+  .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
+
+} 
+
+#work{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#work h4{
+  flex:0 0 20%;
+}
+
+#work div{
+  flex:0 0 75%;
 }
 
   h1{
     display:flex;
     background-size: cover;
-    font-size: 70pt;
+    font-size: 2.0rem;
     font-weight: 600;
 }
 
@@ -53,3 +79,4 @@
     justify-content: flex-start;
     font-variant: normal;
 }
+
